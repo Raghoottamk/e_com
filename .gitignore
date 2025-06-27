@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of `go build`, `go install`, or other build tools
+/bin/
+/pkg/
+
+# Go coverage files
+*.out
+
+# Logs
+*.log
+
+# Dependency directories (if you use vendoring)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you ever add frontend or GraphQL tools)
+node_modules/
+
+# Generated GraphQL code (if you want to exclude them)
+# Uncomment if you plan to always regenerate graphql files and don’t want them versioned:
+# graphql/generated.go
+# graphql/models_gen.go
+
+# Git ignore for your own protos
+pb/github.com/
+
+# Misc
+.env

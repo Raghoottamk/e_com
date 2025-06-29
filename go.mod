@@ -11,7 +11,12 @@ require (
 	google.golang.org/grpc v1.73.0
 )
 
-require github.com/tinrab/retry v1.0.0 // indirect
+require (
+	github.com/mailru/easyjson v0.7.1 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/tinrab/retry v1.0.0 // indirect
+	gopkg.in/olivere/elastic.v5 v5.0.86 // indirect
+)
 
 require (
 	github.com/agnivade/levenshtein v1.2.1 // indirect
